@@ -1,0 +1,59 @@
+{
+  "name": "zillapad",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@rainbow-me/rainbowkit": "1.0.11",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.59",
+    "@types/react": "^18.2.31",
+    "@types/react-copy-to-clipboard": "^5.0.6",
+    "@types/react-dom": "^18.2.14",
+    "@wagmi/core": "^1.4.6",
+    "bignumber.js": "^9.1.2",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.10",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.17.0",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.69.4",
+    "typescript": "^4.9.5",
+    "viem": "^1.16.6",
+    "wagmi": "^1.4.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start --port 3001",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
